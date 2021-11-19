@@ -1,0 +1,54 @@
+.container{
+  background-color: #4345bbd8;
+  color: #e6e6e6;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  height: 650px;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-top: 80px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 89px black;
+  overflow: hidden;
+}
+
+.login-title{
+  padding-top: 15px;
+  font-size: 5rem;
+}
+
+input{
+  border: none;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px #414141;
+  width: 50%;
+}
+
+input, label{
+  margin: 30px;
+  font-size: 4rem;
+  padding: 5px 5px;
+}
+
+.new-acount-text{
+  margin-top: 10px;
+}
+
+.login-button{
+  font-size: 4rem;
+  border: none;
+  border-radius: 10px;
+  padding:0 30px 10px;
+}
+
+.login-button:hover{
+  background-color: #090979;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.login-button:active{
+  background-color: #0000a5;
+  color: aliceblue;
+}
